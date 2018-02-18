@@ -2,6 +2,7 @@ td,
 th{
   border: 1px solid black;
   border-radius: 5px;
+  text-align: center;
 }
  table{
   /* border-collapse: collapse; */
@@ -25,5 +26,18 @@ th{
   background-color:
 }
 .general{
+background-color:
+}
+.informal{
+  background-color: #CACBFF;
+}
+td span{
+  font-style: italic;
+}
+.ponente{
+  font-style: italic;
+}
+.event-type{
+  font-size: .8em;
 
 }
