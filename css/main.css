@@ -44,3 +44,8 @@ td span{
   font-style: italic;
 
 }
+table caption{
+  font-weight: bolder;
+  font-size: 1.5em;
+  
+}
