@@ -1,12 +1,13 @@
-td,
-th{
-  border: 1px solid black;
-  border-radius: 5px;
-  text-align: center;
-}
+
  table{
   /* border-collapse: collapse; */
   border-spacing: 5px;
+}
+td,
+th{
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  text-align: center;
 }
 th{
   border-radius: 5px;
@@ -16,22 +17,23 @@ th{
 .magistral{
   background-color:#BFBFBF;
 }
-.cof{
-  background-color:#E6E6FF;
+.conf{
+  background-color:#E5E6FF;
 }
 .taller{
-  background-color:
+  background-color:#9699FE
 }
 .tutorial{
-  background-color:
+  background-color:#91CDFF;
 }
 .general{
-background-color:
+background-color:#9798CA
 }
 .informal{
   background-color: #CACBFF;
 }
 td span{
+  display: block;
   font-style: italic;
 }
 .ponente{
@@ -39,5 +41,6 @@ td span{
 }
 .event-type{
   font-size: .8em;
+  font-style: italic;
 
 }
